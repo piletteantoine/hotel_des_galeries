@@ -1,0 +1,21 @@
+$icons: 'hdg_icons';
+
+%icons{
+	font-family:$icons;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+@font-face {
+  font-family: "hdg_icons";
+  src:url("../fonts/hdg_icons.eot");
+  src:url("../fonts/hdg_icons.eot?#iefix") format("embedded-opentype"),
+    url("f../onts/hdg_icons.woff") format("woff"),
+    url("../fonts/hdg_icons.ttf") format("truetype"),
+    url("../fonts/hdg_icons.svg#hdg_icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}

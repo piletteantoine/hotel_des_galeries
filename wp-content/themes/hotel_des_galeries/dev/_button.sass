@@ -1,0 +1,60 @@
+#menu-header
+	.current_page_item a
+		color: $green!important
+
+#content
+	.page_item.current_page_item
+		background: $green!important
+		a
+			color: white!important
+
+#content li:hover,
+.continue:hover
+	background: $green
+	text-align: center
+	list-style: none
+	border: 1px solid transparent
+	color: white
+	-webkit-transition: all 0.4s ease
+	-moz-transition: all 0.4s ease
+	-ms-transition: all 0.4s ease
+	transition: all 0.4s ease
+#content li:hover
+	padding: .75em 1em .75em 1em
+	width: 6em
+
+#content li a
+	color: white
+	text-decoration: none
+	padding: 1.2em 1em 1.2em 1em
+	margin: 0 auto
+
+#content li
+	background: transparent
+	padding: .75em 1em .75em 1em
+	width: 6em
+	text-align: center
+	list-style: none
+	color: black
+
+#content li a:hover
+	color: white
+
+#content li a
+	color: grey 
+
+.continue
+	padding: 1em 1.7em 1em 1.7em
+	background: white
+	@extend .border_custom 
+
+.lang li a:hover
+	color: black
+
+.icon_fb:before
+	content: "g"
+.icon_insta:before
+	content: "h"
+
+.social li a:hover
+	color: $green
